@@ -1,0 +1,263 @@
+/* GLOBAL */
+
+
+a {
+	color: #fff;
+	transition: 0.2s;
+}
+a:hover {
+	color: #1ABC9C;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+
+.hover-vk:hover {
+	color: #4A76A8;
+}
+.hover-twitter:hover {
+	color: #1DA1F2;
+}
+.hover-mail:hover {
+	color: #D83B2A;
+}
+.hover-telegram:hover {
+	color: #35ACE1;
+}
+
+
+
+
+@-webkit-keyframes bgfon {
+	0%{background-position:51% 0%}
+	50%{background-position:50% 88%}
+	100%{background-position:46% 0%}
+}
+@-moz-keyframes bgfon {
+	0%{background-position:51% 0%}
+	50%{background-position:50% 88%}
+	100%{background-position:46% 0%}
+}
+@-o-keyframes bgfon {
+	0%{background-position:51% 0%}
+	50%{background-position:50% 88%}
+	100%{background-position:46% 0%}
+}
+@keyframes bgfon { 
+	0%{background-position:51% 0%}
+	50%{background-position:50% 88%}
+	100%{background-position:46% 0%}
+}
+
+
+@-webkit-keyframes sizean {
+	0%{width: 40%}
+	100%{width: 10%; opacity: 0.7;margin-top: 1%;}
+}
+@-moz-keyframes sizean {
+	0%{width: 40%}
+	100%{width: 10%; opacity: 0.7;margin-top: 1%;}
+}
+@-o-keyframes sizean {
+	0%{width: 40%}
+	100%{width: 10%; opacity: 0.7;margin-top: 1%;}
+}
+@keyframes sizean { 
+	0%{width: 40%}
+	100%{width: 10%; opacity: 0.7;margin-top: 1%;}
+}
+
+
+
+@-webkit-keyframes sizean_span {
+	0%{}
+	100%{opacity: 0.7;margin-top: 1%;}
+}
+@-moz-keyframes sizean_span {
+	0%{}
+	100%{opacity: 0.7;margin-top: 1%;}
+}
+@-o-keyframes sizean_span {
+	0%{}
+	100%{opacity: 0.7;margin-top: 1%;}
+}
+@keyframes sizean_span { 
+	0%{}
+	100%{opacity: 0.7;margin-top: 1%;}
+}
+
+
+body {
+	background: linear-gradient(169deg, #629976, #729284, #627e7f, #505b5d, #65687d, #897d94, #7f4d5c);
+	background-size: 1400% 1400%;
+	-webkit-animation: bgfon 40s ease infinite;
+	-moz-animation: bgfon 40s ease infinite;
+	-o-animation: bgfon 40s ease infinite;
+	animation: bgfon 40s ease infinite;
+	text-align: center;
+	text-align: center;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	overflow: hidden;
+}
+
+
+.logo span {
+	font-size: 100px;
+	color: white;
+	animation-name: sizean_span;
+	vertical-align: middle;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	margin-top: 6%;
+	display: inline-block;
+}
+
+.logo img {
+	animation-name: sizean;
+	vertical-align: middle;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	margin-top: 6%;
+}
+
+
+
+.logo {
+	vertical-align: middle;
+	
+}
+.text p {
+	text-align: center;
+}
+
+.text {
+	color: #4C4D4C;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.navig p {
+	color: white;
+	font-size: 60px;
+	margin: 50px;
+}
+
+.navig {
+	margin: 100px 0;
+}
+
+
+.navig a {
+	padding: 0 10px;
+	font-size: 50px;
+}
+
+.text {
+	background-color: #D6D6D6;
+}
+
+
+.social {
+	background-color: #D6D6D6;
+	color: #4C4D4C;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.social a {
+	color: #4C4D4C;
+}
+
+@media (max-width: 1200px) {
+	.text, .navig p, .social {
+		font-size: 40px;
+	}
+	.logo span {
+		font-size: 60px;
+	}
+	.logo span, .logo img {
+		margin-top: 20%;
+	}
+	.navig a {
+		font-size: 40px;
+	}
+	.navig {
+	margin: 90px 0;
+}
+
+}
+
+
+@media (max-width: 900px) {
+	.text, .navig p, .social {
+		font-size: 30px;
+	}
+	.logo span {
+		font-size: 40px;
+	}
+	.logo span, .logo img {
+		margin-top: 37%;
+	}
+	.navig a {
+		font-size: 30px;
+	}
+	.navig {
+	margin: 80px 0;
+}
+
+}
+
+@media (max-width: 500px) {
+	.text, .navig p, .social {
+		font-size: 20px;
+	}
+	.logo span {
+		font-size: 30px;
+	}
+	.logo span, .logo img {
+		margin-top: 50%;
+	}
+	.navig a {
+		font-size: 20px;
+	}
+	.navig {
+	margin: 60px 0;
+}
+
+}
+
+
+
+@media (max-width: 400px) {
+	.text, .social {
+		font-size: 18px;
+	}
+	.logo span {
+		font-size: 25px;
+	}
+	.logo span, .logo img {
+		margin-top: 67%;
+	}
+	.navig a {
+		font-size: 16px;
+	}
+	.navig {
+	margin: 50px 0;
+}
+
+}
